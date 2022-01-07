@@ -4,5 +4,5 @@
 
 **Started on 1/6/2022**
 
-Tech Stack: JavaScript/React, HTML/CSS
+Tech Stack: JavaScript/React, HTML/CSS  
 Database: None, will be using the localStorage API for this project. Will consider adding a database and other functionality once the main project functions are complete. 
