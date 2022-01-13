@@ -1,5 +1,5 @@
 import React from 'react';
-import { getTodos, removeTodo, addTodo } from '../helpers/useStorage'
+import { getTodos, removeTodo, addTodo } from '../services/LocalStorageServices'
 
 
 
