@@ -1,4 +1,41 @@
-:root {
+body  {
   margin: 0;
   padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--theme-d1);
+  overflow: hidden;
+}
+
+:root {
+  --theme-d2: #172531;
+  --theme-d1: #294257;
+  --theme-l2: #456f93;
+  --theme-l1: #cddbe7;
+}
+
+#main_view  {
+  border: 1px solid black;
+  background-color: var(--theme-l1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+  max-width: 600px;
+  max-height: 250px;
+  overflow: auto;
+  
+}
+
+#app_header {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: var(--theme-d2);
+  border-bottom: 1px solid black;
+}
+
+#list_main  {
+  list-style: none;
+  text-align: center;
 }

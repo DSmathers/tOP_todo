@@ -1,10 +1,12 @@
-
+import AppHeader from "./components/AppHeader";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
-    <div className="App">
-    <h1>Hello World!</h1>
-    </div>
+    <main id="main_view">
+      <AppHeader />
+      <TodoList />
+    </main>
   );
 }
 
